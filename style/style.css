@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Semibold.eot');
+    src: url('../fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Semibold.woff') format('woff'),
+    url('../fonts/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Regular.eot');
+    src: url('../fonts/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GraphikLCG-Regular.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Regular.woff') format('woff'),
+    url('../fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Graphik LCG', serif  ;
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+}
+
+
+.center {
+    padding-left: 51px;
+    padding-right: 51px;
+    display: flex;
+
+}
+
+.header {
+    height: 95px;
+}
+
+/*button header*/
+.button {
+
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    cursor: pointer;
+    margin-right: 10px;
+
+
+}
+
+.button__transparent {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    background: #FF6336;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 25px 0 0 0;
+
+}
+/*button header*/
+
+/*nav header*/
+.header__links {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 39px 0 0 0 ;
+
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+
+}
+
+.header__img {
+    padding: 35px 51px 0 0 ;
+    max-width: 130px;
+}
+
+/*nav header*/
+
+/*about content*/
+
+.about__title {
+    width: 550px;
+    font-size: 65px;
+    line-height: 70px;
+    margin: 130px 0 0 0 ;
+
+}
+
+.about_img {
+    max-width: 700px;
+    margin: 130px 0 0 0;
+    max-height: 530px;
+}
+
+.about__text {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 470px;
+    margin: 50px 0 0 0;
+}
+
+.about__buttons {
+    margin: 50px 0 0 0 ;
+}
+/*відступ для кнопки (about)*/
+.button10px{
+    margin: 0 0 0 10px ;
+}
+/*відступ для кнопки (about)*/
+
+.about__span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0 0 0;
+}
+
+/*about content*/
+
+/*section partner*/
+
+.partner {
+    display: flex;
+    max-width: 1349px;
+    /*height: 455px;*/
+    background-color: #FF9C7D;
+    margin-top: 170px;
+
+}
+
+.partner__title {
+    margin: 105px 305px 225px;
+    width: 720px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.partner__photos {
+
+}
+
+.partner__logo {
+    max-height: 53px;
+
+}
+
+
+
+/*section partner*/
